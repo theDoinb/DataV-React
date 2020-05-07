@@ -42,6 +42,7 @@ const BorderBox = forwardRef(({ children, className, style, color = [], titleWid
         </defs>
 
         <polyline
+          fill='transparent'
           stroke={mergedColor[0]}
           filter={`url(#${filterId})`}
           points={`
